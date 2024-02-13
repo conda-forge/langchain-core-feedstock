@@ -154,4 +154,5 @@ Feedstock Maintainers
 * [@efriis](https://github.com/efriis/)
 * [@hinthornw](https://github.com/hinthornw/)
 * [@hwchase17](https://github.com/hwchase17/)
+* [@pavelzw](https://github.com/pavelzw/)
 
