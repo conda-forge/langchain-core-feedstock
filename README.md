@@ -151,6 +151,7 @@ Feedstock Maintainers
 
 * [@agola11](https://github.com/agola11/)
 * [@baskaryan](https://github.com/baskaryan/)
+* [@dlqqq](https://github.com/dlqqq/)
 * [@efriis](https://github.com/efriis/)
 * [@hinthornw](https://github.com/hinthornw/)
 * [@hwchase17](https://github.com/hwchase17/)
