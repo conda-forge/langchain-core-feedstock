@@ -1,5 +1,5 @@
 {% set name = "langchain-core" %}
-{% set version = "0.3.28" %}
+{% set version = "0.3.29" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/langchain_core-{{ version }}.tar.gz
-  sha256: 407f7607e6b3c0ebfd6094da95d39b701e22e59966698ef126799782953e7f2c
+  sha256: 773d6aeeb612e7ce3d996c0be403433d8c6a91e77bbb7a7461c13e15cfbe5b06
 
 build:
   noarch: python
@@ -20,13 +20,14 @@ requirements:
     - poetry-core >=1.0.0
     - pip
   run:
+    - typing_extensions >=4.7
     - python >={{ python_min }},<4.0
-    - pydantic >=1,<3
-    - langsmith >=0.1.75,<0.2.0
-    - tenacity >=8.1.0,!=8.4.0,<9.0.0
+    - pydantic >=2.5.2,<3.0.0
+    - langsmith >=0.1.125,<0.3
+    - tenacity >=8.1.0,!=8.4.0,<10.0.0
     - jsonpatch >=1.33.0,<2.0.0
     - pyyaml >=5.3
-    - packaging >=23.2.0,<25.0.0
+    - packaging >=23.2,<25
   run_constrained:
     - jinja2 >=3.0.0,<4.0.0
 
