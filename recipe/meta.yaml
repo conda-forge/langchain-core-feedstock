@@ -19,6 +19,7 @@ requirements:
     - python {{ python_min }}
     - poetry-core >=1.0.0
     - pip
+    - pdm
   run:
     - typing_extensions >=4.7
     - python >={{ python_min }},<4.0
