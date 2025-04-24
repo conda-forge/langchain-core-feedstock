@@ -151,10 +151,11 @@ Feedstock Maintainers
 
 * [@agola11](https://github.com/agola11/)
 * [@baskaryan](https://github.com/baskaryan/)
+* [@ccurme](https://github.com/ccurme/)
 * [@dlqqq](https://github.com/dlqqq/)
-* [@efriis](https://github.com/efriis/)
 * [@hinthornw](https://github.com/hinthornw/)
 * [@hwchase17](https://github.com/hwchase17/)
 * [@jan-janssen](https://github.com/jan-janssen/)
 * [@pavelzw](https://github.com/pavelzw/)
+* [@sydney-runkle](https://github.com/sydney-runkle/)
 
