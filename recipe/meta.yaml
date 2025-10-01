@@ -1,5 +1,5 @@
 {% set name = "langchain-core" %}
-{% set version = "0.3.76" %}
+{% set version = "0.3.77" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/langchain_core-{{ version }}.tar.gz
-  sha256: 71136a122dd1abae2c289c5809d035cf12b5f2bb682d8a4c1078cd94feae7419
+  sha256: 1d6f2ad6bb98dd806c6c66a822fa93808d821e9f0348b28af0814b3a149830e7
 
 build:
   noarch: python
@@ -20,14 +20,14 @@ requirements:
     - pip
     - pdm-backend
   run:
-    - typing_extensions >=4.7
+    - typing_extensions >=4.7.0,<5.0.0
     - python >={{ python_min }},<4.0
-    - pydantic >=2.7.4
-    - langsmith >=0.3.45
-    - tenacity !=8.4.0,<10.0.0,>=8.1.0
-    - jsonpatch <2.0,>=1.33
-    - pyyaml >=5.3
-    - packaging >=23.2
+    - pydantic >=2.7.4,<3.0.0
+    - langsmith >=0.3.45,<1.0.0
+    - tenacity !=8.4.0,>=8.1.0,<10.0.0
+    - jsonpatch >=1.33.0,<2.0.0
+    - pyyaml >=5.3.0,<7.0.0
+    - packaging >=23.2.0,<26.0.0
   run_constrained:
     - jinja2 >=3.0.0,<4.0.0
 
