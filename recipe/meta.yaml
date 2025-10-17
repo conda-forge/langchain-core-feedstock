@@ -18,7 +18,7 @@ requirements:
   host:
     - python {{ python_min }}
     - pip
-    - pdm-backend
+    - hatchling
   run:
     - typing_extensions >=4.7.0,<5.0.0
     - python >={{ python_min }},<4.0
