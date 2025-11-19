@@ -1,5 +1,5 @@
 {% set name = "langchain-core" %}
-{% set version = "1.0.6" %}
+{% set version = "1.0.7" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/langchain_core-{{ version }}.tar.gz
-  sha256: 249ef2597982dca82f60bceabd92e6b94971ea52500272ddc6d5dfda9bf58af2
+  sha256: 6c64399cb0f163a7e45a764cce75d80fd08b82f4e0274ca892cfbcaa2f29200b
 
 build:
   noarch: python
