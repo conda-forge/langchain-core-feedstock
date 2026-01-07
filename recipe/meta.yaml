@@ -1,5 +1,5 @@
 {% set name = "langchain-core" %}
-{% set version = "0.3.79" %}
+{% set version = "0.3.80" %}
 
 package:
   name: {{ name|lower }}
