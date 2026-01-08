@@ -1,5 +1,5 @@
 {% set name = "langchain-core" %}
-{% set version = "1.2.6" %}
+{% set version = "0.3.81" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/langchain_core-{{ version }}.tar.gz
-  sha256: b4e7841dd7f8690375aa07c54739178dc2c635147d475e0c2955bf82a1afa498
+  sha256: 0473e7cffbba06017393f2f1ee116da098c298e4ec478ada91d321f42dff921c
 
 build:
   noarch: python
@@ -18,9 +18,8 @@ requirements:
   host:
     - python {{ python_min }}
     - pip
-    - hatchling
+    - pdm-backend
   run:
-    - uuid-utils >=0.12.0,<1.0
     - typing_extensions >=4.7.0,<5.0.0
     - python >={{ python_min }},<4.0
     - pydantic >=2.7.4,<3.0.0
