@@ -1,5 +1,5 @@
 {% set name = "langchain-core" %}
-{% set version = "1.2.7" %}
+{% set version = "1.2.8" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/langchain_core-{{ version }}.tar.gz
-  sha256: e1460639f96c352b4a41c375f25aeb8d16ffc1769499fb1c20503aad59305ced
+  sha256: 76d933c3f4cfd8484d8131c39bf25f562e2df4d0d5fe3218e05ff773210713b6
 
 build:
   noarch: python
@@ -28,7 +28,7 @@ requirements:
     - tenacity !=8.4.0,>=8.1.0,<10.0.0
     - jsonpatch >=1.33.0,<2.0.0
     - pyyaml >=5.3.0,<7.0.0
-    - packaging >=23.2.0,<26.0.0
+    - packaging >=23.2.0
   run_constrained:
     - jinja2 >=3.0.0,<4.0.0
 
