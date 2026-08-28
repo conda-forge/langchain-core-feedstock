@@ -1,5 +1,5 @@
 {% set name = "langchain-core" %}
-{% set version = "1.6.0" %}
+{% set version = "1.6.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/langchain_core-{{ version }}.tar.gz
-  sha256: dc72e36678ed26683ec0ad8829b44011fba461d10f9b31dbd9110215e5ec2333
+  sha256: 1b156cb395aac4f009a8a1b38a574c7d948fe2d5f74c96e0d8a5017b4149e04f
 
 build:
   noarch: python
