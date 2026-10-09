@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: langchain-core
-  version: "1.6.8"
+  version: "1.6.9"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/${{ name[0] }}/${{ name }}/langchain_core-${{ version }}.tar.gz
-  sha256: e679a8a41a66f776832ec2606cb6e8eaef65154722f98d89bc3ef70af83834ee
+  sha256: 34394228603e6f0bd24ce4e773b58b7d160e1b8cf489ecb350cf41f5366f5e92
 
 build:
   number: 0
