@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: langchain-core
-  version: "1.6.13"
+  version: 1.7.0
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/${{ name[0] }}/${{ name }}/langchain_core-${{ version }}.tar.gz
-  sha256: 756d8fd971cd7e3a5a19cf5453a81159351bd40cbfe62cbfe7e2ee3941008772
+  sha256: c34e53358b103cd73f43c63f5f46f9b5c6c3467efdffcdf134892b89020494e4
 
 build:
   number: 0
@@ -24,7 +24,7 @@ requirements:
     - hatchling
   run:
     - httpx >=0.23.0,<1.0.0
-    - langchain-protocol >=0.0.17
+    - langchain-protocol >=0.0.20
     - uuid-utils >=0.12.0,<1.0
     - typing_extensions >=4.7.0,<5.0.0
     - python >=${{ python_min }},<4.0
